@@ -195,7 +195,8 @@ public class AnimalService {
                 .setSex(animal.getSex())
                 .setCoat(animal.getCoat())
                 .setTypeOfHair(animal.getTypeOfHair())
-                .setOwnerUsername(animal.getOwner());
+                .setOwnerUsername(animal.getOwner())
+                .setImageId(animal.getImageId());
     }
 
     private VisitData convert(Visit visit) {
@@ -250,6 +251,7 @@ public class AnimalService {
                 .setBreed(animalData.getBreed())
                 .setCoat(animalData.getCoat())
                 .setTypeOfHair(animalData.getTypeOfHair())
+                .setImageId(animalData.getImageId())
                 .setOwner(getOwner(animal, animalData.getOwnerUsername()));
     }
 

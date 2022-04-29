@@ -21,4 +21,5 @@ public class AnimalData {
     private String coat;
     private String typeOfHair;
     private String ownerUsername;
+    private String imageId;
 }

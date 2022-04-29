@@ -25,6 +25,7 @@ public class Animal {
     private String coat;
     private String typeOfHair;
     private String owner;
+    private String imageId;
     private List<Comment> comments;
     private List<Visit> visits;
 
